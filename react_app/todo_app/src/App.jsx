@@ -3,9 +3,14 @@ import { useState } from 'react';
 import viteLogo from '/vite.svg';
 import reactLogo from './assets/react.svg';
 
+
 function App() {
   // Define the TODO models
   const [todos, setTodos] = useState([]);
+
+
+  //todos is going to be an empty list
+  // if I want to change todos, I need to use the setTodos() callback function 
 
   // Build up the UI element for the TODOs
   let listContent = <></>;

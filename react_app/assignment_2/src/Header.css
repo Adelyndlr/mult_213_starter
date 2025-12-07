@@ -1,0 +1,18 @@
+header {
+ padding-bottom: 2rem;
+ align-content: center;
+}
+
+
+header h1{
+color:rgb(255, 255, 255);
+ font-family: "Acme", sans-serif;
+  font-size: 40px;
+}
+
+header p{
+    color:rgb(26, 8, 31);
+    font-family: "Acme", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}

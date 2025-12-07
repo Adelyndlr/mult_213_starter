@@ -1,0 +1,19 @@
+.card {
+    background-color: rgb(38, 11, 51) ;
+color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 26px 0;
+    max-width: 300px;
+    margin: 16px auto;
+    text-align: center;
+}
+
+.card h2 {
+color: rgb(255, 255, 255);
+}
+
+.card h3 {
+    color: rgb(193, 122, 240);
+}
+
