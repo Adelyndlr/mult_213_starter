@@ -20,13 +20,13 @@ Create 4 static components (header, footer, TodoList, Card)
 -It doesn't need to be dynamic 
 
 Each component musts
--Header must have Title <h1>, message <p>
--Footer must have message <p>, default message "Copyright © 2023 My Website. All rights reserved."
+-Header must have Title 'h1', message 'p'
+-Footer must have message 'p', default message "Copyright © 2023 My Website. All rights reserved."
 -TodoList must have
     -Shoud be displayed as a list
     -each item should have its own checkbox and text
     -button to remove the items from the list
--Cards must have title <h2>, subtitle <h3>, content <p>, image <img>
+-Cards must have title 'h2', subtitle 'h3', content 'p', image 'img'
 
 # Plan execution
 
