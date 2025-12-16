@@ -1,7 +1,9 @@
 import './App.css';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import viteLogo from '/vite.svg';
 import { Header } from './Header';
+import { TodoList } from './TodoList';
+import { MyAccordion } from './MyAccordion';
 import reactLogo from './assets/react.svg';
 
 
@@ -17,6 +19,7 @@ function App() {
   // todos is going to be an empty list []
   // If I want to change todos, I need to use the setTodos() callback function
 
+<<<<<<< HEAD
 
   // Build up the UI element for the TODOs
   let listContent = <></>;
@@ -33,6 +36,8 @@ function App() {
       </li>
     })
   }
+=======
+>>>>>>> upstream/main
 
   // Set up add new TODO form handler
   const handleFormSubmit = (formData) => {
@@ -80,13 +85,13 @@ function App() {
           </form>
         </section>
 
+        <TodoList todos={todos} />
         <section>
-          <h2>My TODOs:</h2>
-          <ul className="todo-list" id="todo-list">
-            {listContent}
-          </ul>
+          <h3>Example Usage from the Material Component Library</h3>
+          <MyAccordion />
         </section>
       </main>
+
 
       <footer>
         <p className="read-the-docs">
