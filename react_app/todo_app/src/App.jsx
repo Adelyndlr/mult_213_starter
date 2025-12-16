@@ -9,7 +9,6 @@ function App() {
   // Define the TODO models
   const [todos, setTodos] = useState([]);
 
- HEAD
 
   //todos is going to be an empty list
   // if I want to change todos, I need to use the setTodos() callback function 
