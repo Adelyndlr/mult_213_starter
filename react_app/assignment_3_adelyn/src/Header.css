@@ -1,0 +1,21 @@
+header {
+ padding-bottom: 2rem;
+ align-content: center;
+}
+
+
+header h1{
+  background-color: rgb(143, 98, 30);
+  margin-top: 40px;
+  padding-top: 30px; 
+color:rgb(255, 255, 255);
+ font-family: "Joti One", serif;
+  font-size: 40px;
+}
+
+header p{
+    color:rgb(31, 19, 8);
+    font-family: "Acme", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}

@@ -12,12 +12,21 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/)
 
+
+
+ADOPTION HYPE APP
+
+I created this application so that animal shelters can use it at events to promote the adoption of animals without discrimination. We often see people very enthusiastic about adopting "any" pet, but they are predisposed to or looking for a specific breed. While we can't intervene in everyone's situation and preferences, I believe we can try to reduce this type of discrimination.
+
+
 # PLAN
 
-Create 4 static components (header, footer, TodoList, Card)
--For this I'll duplicate the example the instructor arrange in class (duplicating files)
--Each component needs a file on its own (.jsx and .css)
--It doesn't need to be dynamic 
+- Divide the project into several components (Card, Header, Pets, User) to facilitate execution.
+- Each component will connect with its own CSS file.
+- Card: This section contains the buttons for user interaction.
+- Header: Contains the title and subtitle.
+- Pets: Contains the API information once the user presses the buttons.
+- User: Contains the input field for the user to enter their name.
 
 Each component musts
 -Header must have Title 'h1', message 'p'
@@ -30,8 +39,6 @@ Each component musts
 
 # Plan execution
 
-After creating the header, I duplicated it in the footer and modified the tags it should have.
-For the TodoList, I changed the `onform` method to `ontoggle` because I won't be using the form for this exercise.
-For the card, I duplicated the header elements and modified the tags.
-All the components CSS were modified in some way.
-
+Using another assignment as a base, I imported all the new components created for this app, added 'useEffect'
+ to synchronize the APIs (I used 3 in total), and added the component constants. I returned a simplified sample
+of the components to make the document look cleaner.

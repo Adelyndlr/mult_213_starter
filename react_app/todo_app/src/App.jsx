@@ -18,25 +18,6 @@ function App() {
   // todos is going to be an empty list []
   // If I want to change todos, I need to use the setTodos() callback function
 
-<<<<<<< HEAD
-
-  // Build up the UI element for the TODOs
-  let listContent = <></>;
-
-  if (todos.length == 0) {
-    // If there are no TODOs, tell the user what to do
-    listContent = <li key="empty" className="todo-list__empty">No tasks yet. Add your first TODO above.</li>;
-  } else {
-    // If there are TODOs, render them as li elements
-    listContent = todos.map((item, i) => {
-      return <li key={"todo-" + i} className="todo-item">
-        <input type="checkbox" className="todo-item__checkbox" data-id={i} id={"todo-" + i} />
-        <label htmlFor={"todo-" + i} className="todo-item__label">{item.name}</label>
-      </li>
-    })
-  }
-=======
->>>>>>> upstream/main
 
   // Set up add new TODO form handler
   const handleFormSubmit = (formData) => {

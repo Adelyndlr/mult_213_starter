@@ -1,0 +1,44 @@
+.dogcard {
+    font-family: "Acme", sans-serif;
+    padding-top: 10px;
+    align-content: center;
+}
+
+.dogcard img {
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.dogcard p {
+    
+    font-size: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dogcard h4{
+
+    padding-bottom: 30px;
+}
+
+
+.catinfo {
+    font-family: "Acme", sans-serif;
+    padding: 20px 0;
+}
+
+.catinfo p{
+    font-size: 18px; 
+    display: block;
+    inline-size: 30%;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.catinfo img {
+    max-width: 250px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
